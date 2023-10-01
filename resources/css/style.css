@@ -64,6 +64,7 @@ header .title2 {
 }
 
 .links a {
+  box-sizing: border-box;
   background-color: white;
   text-decoration: none;
   font-size: 20px;
@@ -128,10 +129,15 @@ main {
   height: 10%;
   background-color: rgb(70, 68, 68);
   color: white;
+  cursor: pointer;
 }
 
 .main1_text button:hover {
   background-color: #7BE2D7;
+}
+
+.main1_text button:active {
+  color: rgb(70, 68, 68);
 }
 
 /* Main Section 2 */
