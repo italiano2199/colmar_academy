@@ -1,9 +1,6 @@
 * {
-  /* background-color: white; */
   color: rgb(70, 68, 68);
-  /* text-align: center; */
   font-family: verdana;
-  /* align-items: center; */
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -30,6 +27,7 @@ h4 {
 /* Header section */
 
 header {
+  box-sizing: border-box;
   display: flex;
   width: 100%;
   height: 64px;
@@ -50,7 +48,6 @@ header {
 header .title {
   display: flex;
   height: 32px;
-  /* margin-left: 5px; */
 }
 
 header .title1 {
@@ -64,14 +61,11 @@ header .title2 {
 }
 
 .links a {
-  box-sizing: border-box;
   background-color: white;
   text-decoration: none;
   font-size: 20px;
-  /* max-height: 64px; */
   padding: 20px 8px;
   margin-left: 16px;
-  /* padding: 0 8px; */
 }
 
 .links {
@@ -81,6 +75,7 @@ header .title2 {
   display: flex;
   align-items: center;
   background-color: #7BE2D7;
+  border-bottom: 1px solid rgb(70, 68, 68);
 }
 
 .mobile_header {
@@ -91,7 +86,6 @@ header .title2 {
 main {
   margin-top: 64px;
   width: 100%;
-  /* border: 1px solid black; */
 }
 
 /* Main Section 1 */
@@ -111,7 +105,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: flex-start; */
 }
 
 .main1_text h2 {
@@ -171,11 +164,8 @@ main {
 }
 
 .main2_right {
-  /* display: flex;
-  flex-direction: column; */
   width: 38%;
   padding-left: 25px;
-  /* height: 100%; */
 }
 
 .main2_mobile_image{
@@ -193,7 +183,6 @@ main {
 
 .main2_boxes img {
   width: 35%;
-  /* height: auto; */
   margin: 16px 16px;
 }
 
@@ -339,7 +328,7 @@ footer {
 
   .links a {
     font-size: 16px;
-    padding: 20px 8px;
+    padding: 22px 8px;
   }
 
   .main1_text button {
@@ -457,7 +446,6 @@ footer {
   .main1_text {
     display: inline-flex;
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
     width: 100%;
     margin: 0;
