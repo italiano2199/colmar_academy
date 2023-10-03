@@ -334,7 +334,7 @@ footer {
   .links a {
     font-size: 16px;
     border-bottom: 1px solid rgb(70, 68, 68);
-    /* padding: 22px 8px; */
+    padding: 22px 8px;
   }
 
   .main1_text button {
