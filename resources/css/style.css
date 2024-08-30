@@ -36,10 +36,9 @@ header {
   top: 0;
   left: 0;
   z-index: 100;
-  border-bottom: 1px solid rgb(70, 68, 68);
   align-items: center;
   text-align: center;
-  /* border: 1px solid red; */
+  border-bottom: 1px solid rgb(70, 68, 68);
 }
 
 .logo img {
@@ -74,12 +73,10 @@ header .title2 {
 .links {
   position: absolute;
   right: 24px;
-  /* height: 64px; */
   height: 100%;
   display: flex;
   align-items: center;
   background-color: #7BE2D7;
-  /* border-bottom: 1px solid rgb(70, 68, 68); */
 }
 
 .mobile_header {
@@ -332,8 +329,7 @@ footer {
 
   .links a {
     font-size: 16px;
-/*     border-bottom: 1px solid rgb(70, 68, 68); */
-    /* padding: 22px 8px; */
+    border-bottom: 1px solid rgb(70, 68, 68);
   }
 
   .main1_text button {
@@ -373,7 +369,7 @@ footer {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   header .title {
     display: block;
     margin-bottom: 16px;
@@ -388,7 +384,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 680px) {
 
 /* Header */
  h1 {
@@ -476,8 +472,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    box-sizing: border-box;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
   }
 
   .main2_left {
@@ -517,7 +512,6 @@ footer {
   .main2_text {
     width: 100%;
     margin: 0;
-    padding: 16px;
   }
 
   .main2_text h4 {
@@ -527,9 +521,7 @@ footer {
   /* Main 3 */
   .main3 {
     background-color: white;
-    box-sizing: border-box;
-    border: 1px solid lightgray;
-    border-top: 0px
+    border-bottom: 1px solid lightgray;
   }
 
   .main3_above {
